@@ -1,0 +1,17 @@
+/shelf/
+/.gradle/
+/.idea/
+/gradle/
+/notifications/*.txt
+/notifications/*.json
+*.log
+*.class
+*.jar
+build/
+target/
+gradlew
+gradlew.bat
+*.properties
+.allure/
+allure-results/
+logs/
