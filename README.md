@@ -1,6 +1,6 @@
 # Автоматизация тестирования страницы вакансий Tele2
 
-<kbd>[![](images/results/)](https://msk.tele2.ru/about/career/vacancies)</kbd>
+<kbd>[![](images/screenshots/Tele2Vacancies.jpg)](https://msk.tele2.ru/about/career/vacancies)</kbd>
 
 ## Содержание:
 + [Стек технологий](#computer-Стек-технологий)
@@ -37,7 +37,7 @@
 + :white_check_mark: Проверка некорректного ввода пароля для входа в аккаунт
 
 ## <img width="5%" src="images/logo/jenkins.svg"> Сборка в Jenkins
-<kbd>[![](images/results/)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_DIPLOM_UI)</kbd>
+<kbd>[![](images/screenshots/JenkinsResult.jpg)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_DIPLOM_UI)</kbd>
 
 #### Параметры сборки:
 | Параметры          | Значение                            |
@@ -47,7 +47,7 @@
 | BROWSER_VERSION    | Версия браузера                     |
 | BROWSER_RESOLUTION | Размер окна браузера                |
 
-<kbd>[![](images/results/)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_DIPLOM_UI/build)</kbd>
+<kbd>[![](images/screenshots/JenkinsStart.jpg)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_DIPLOM_UI/build)</kbd>
 
 ## :desktop_computer: Команды запуска тестов в терминале
 #### Команды для локального запуска:
@@ -67,7 +67,7 @@ taskWithTagVacancy
 
 ## <img width="5%" title="Allure" src="images/logo/allureReport.svg"> Интеграция с Allure report
 #### Диаграммы прохождения тестов:
-<kbd>[![](images/results/)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_13_VACANCY/allure/)</kbd>
+<kbd>[![](images/screenshots/AllureReportScheme.jpg)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_13_VACANCY/allure/)</kbd>
 
 #### Развернутый результат прохождения тестов:
 | Левая часть       | Правая часть                      |
@@ -78,11 +78,11 @@ taskWithTagVacancy
 |                   | Исходники консоли браузера        |
 |                   | Финальный ролик с процессом теста |
 
-<kbd>[![](images/results/)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_13_VACANCY/allure/#suites/1d00f9eba85bfdc8b26ce142056449f8/9f38bfb766a189a5/)</kbd>
+<kbd>[![](images/screenshots/AllureReportTestCases.jpg)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_13_VACANCY/allure/#suites/1d00f9eba85bfdc8b26ce142056449f8/9f38bfb766a189a5/)</kbd>
 
 ## <img width="5%" title="Allure" src="images/logo/allureTestOps.svg"> Интеграция с Allure TestOps
 #### Диаграммы прохождения тестов:
-<kbd>![](images/results/)</kbd>
+<kbd>![](images/screenshots/AllureTestopsScheme.jpg)</kbd>
 
 #### Развернутый результат прохождения тестов:
 | Левая часть       | Правая часть                      |
@@ -93,37 +93,37 @@ taskWithTagVacancy
 |                   | Исходники консоли браузера        |
 |                   | Финальный ролик с процессом теста |
 
-<kbd>![](images/results/)</kbd>
+<kbd>![](images/screenshots/AllureTestOpsTestCases.jpg)</kbd>
 
 ## <img width="5%" title="Jira" src="images/logo/jira.svg"> Интеграция с Jira
-<kbd>![](images/results/)</kbd>
+<kbd>![](images/screenshots/JiraResult.jpg)</kbd>
 
 ## :cinema: Видео прохождения тестов
 #### :white_check_mark: Проверка ввода некорректного значения для поика вакансии:
 <p align="center">
-  <img src="images/results/">
+  <img src="images/gif/VideoResult1.gif">
 </p>
 
 #### :white_check_mark: Поиск вакансии по подразделениям на странице "Вакансии Tele2":
 <p align="center">
-  <img src="images/results/">
+  <img src="images/gif/VideoResult2.gif">
 </p>
 
 #### :white_check_mark: Проверка некорректного ввода пароля для входа в аккаунт:
 <p align="center">
-  <img src="images/results/">
+  <img src="images/gif/VideoResult3.gif">
 </p>
 
 #### :white_check_mark: Проверка некорректного ввода номера телефона для входа в аккаунт:
 <p align="center">
-  <img src="images/results/">
+  <img src="images/gif/VideoResult4.gif">
 </p>
 
 #### :white_check_mark: Поиск вакансии через ввод на странице "Вакансии Tele2":
 <p align="center">
-  <img src="images/results/">
+  <img src="images/gif/VideoResult5.gif">
 </p>
 
 ## <img width="5%" title="Telegram" src="images/logo/telegram.svg"> Информирование в Telegram
 #### Оповещение ведется при помощи Telegram bot API:
-<kbd>![](images/results/)</kbd>
+<kbd>![](images/screenshots/TelegramResult.jpg)</kbd>
