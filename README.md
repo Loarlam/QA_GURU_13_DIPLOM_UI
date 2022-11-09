@@ -68,7 +68,7 @@ taskWithTagVacancy
 
 ## <img width="5%" title="Allure" src="images/logo/allureReport.svg"> Интеграция с Allure report
 #### Диаграммы прохождения тестов:
-<kbd>[![](images/screenshots/AllureReportScheme.jpg)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_13_VACANCY/allure/)</kbd>
+<kbd>[![](images/screenshots/AllureReportScheme.jpg)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_DIPLOM_UI/allure/)</kbd>
 
 #### Развернутый результат прохождения тестов:
 | Левая часть скриншота | Правая часть скриншота            |
@@ -79,7 +79,7 @@ taskWithTagVacancy
 |                       | Исходники консоли браузера        |
 |                       | Финальный ролик с процессом теста |
 
-<kbd>[![](images/screenshots/AllureReportTestCases.jpg)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_13_VACANCY/allure/#suites/1d00f9eba85bfdc8b26ce142056449f8/9f38bfb766a189a5/)</kbd>
+<kbd>[![](images/screenshots/AllureReportTestCases.jpg)](https://jenkins.autotests.cloud/job/Loarlam-QA_GURU_13_DIPLOM_UI/allure/#suites/dd42ccbcb85ab2254f42f38d37f17b1d)</kbd>
 
 ## <img width="5%" title="Allure" src="images/logo/allureTestOps.svg"> Интеграция с Allure TestOps
 #### Диаграммы прохождения тестов:
