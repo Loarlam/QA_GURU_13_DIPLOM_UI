@@ -12,7 +12,7 @@ public class DataForTheTest {
 
     String errorJobTitle = fakerData.job().position(),
             password = fakerData.internet().password(),
-            phoneNumber = String.valueOf(random.nextInt(1000000000) + 9000000000L),
+            phoneNumber = String.valueOf(random.nextInt(1000000000) + 1000000000L),
             baseUrl = "https://msk.tele2.ru",
             additionalPath = "/about/career/vacancies",
             h1Text = "Вакансии Tele2",

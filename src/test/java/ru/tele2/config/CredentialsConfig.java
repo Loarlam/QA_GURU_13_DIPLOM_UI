@@ -2,7 +2,7 @@ package ru.tele2.config;
 
 import org.aeonbits.owner.Config;
 
-@Config.Sources("classpath:config/credentials.properties")
+@Config.Sources({"classpath:config/${host}.properties"})
 public interface CredentialsConfig extends Config {
     @Key("remoteLink")
     String remoteLink();
