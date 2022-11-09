@@ -16,19 +16,19 @@ import static io.qameta.allure.Allure.step;
 
 public class TestBase {
     Tele2VacancySteps tele2VacancySteps = new Tele2VacancySteps();
-    DataForTheTest dataForTheTest = new DataForTheTest();
+    static DataForTheTest dataForTheTest = new DataForTheTest();
     static CredentialsConfig credentialsConfig = ConfigFactory.create(CredentialsConfig.class);
 
     @BeforeAll
     static void beforeAllTests() {
         SelenideLogger.addListener("Allure", new AllureSelenide());
 
-        Configuration.remote = String.format("https://%s:%s@%s", credentialsConfig.login(), credentialsConfig.password(), System.getProperty("remoteLink", "selenoid.autotests.cloud/wd/hub"));
-        Configuration.baseUrl = "https://msk.tele2.ru";
-        Configuration.browserPosition = "0x0";
-        Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("version", "100");
-        Configuration.browserSize = System.getProperty("resolution", "1920x1080");
+        Configuration.remote = String.format("https://%s:%s@%s", credentialsConfig.login(), credentialsConfig.password(), System.getProperty("remoteLink"));
+        Configuration.baseUrl = dataForTheTest.baseUrl;
+        Configuration.browserPosition = credentialsConfig.position();
+        Configuration.browser = credentialsConfig.browser();
+        Configuration.browserVersion = credentialsConfig.version();
+        Configuration.browserSize = credentialsConfig.resolution();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);

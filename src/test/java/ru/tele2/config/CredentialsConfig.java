@@ -9,4 +9,20 @@ public interface CredentialsConfig extends Config {
 
     @Key("password")
     String password();
+
+    @DefaultValue("0x0")
+    @Key("position")
+    String position();
+
+    @DefaultValue("chrome")
+    @Key("browser")
+    String browser();
+
+    @DefaultValue("100")
+    @Key("version")
+    String version();
+
+    @DefaultValue("1920x1080")
+    @Key("resolution")
+    String resolution();
 }

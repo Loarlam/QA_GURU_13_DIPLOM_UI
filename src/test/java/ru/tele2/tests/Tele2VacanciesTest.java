@@ -16,7 +16,7 @@ public class Tele2VacanciesTest extends TestBase {
     void checkingInvalidNumber() {
         tele2VacancySteps.openingPage(dataForTheTest.additionalPath)
                 .checkingResultsOnPage(dataForTheTest.h1Text)
-                .checkingUrlOnPage("https://msk.tele2.ru/about/career/vacancies")
+                .checkingUrlOnPage(dataForTheTest.baseUrl + dataForTheTest.additionalPath)
                 .clickingOnLoginButton()
                 .clickingInNumberFiled()
                 .clickingOnSubmit()
@@ -31,7 +31,7 @@ public class Tele2VacanciesTest extends TestBase {
     void checkingInvalidPassword() {
         tele2VacancySteps.openingPage(dataForTheTest.additionalPath)
                 .checkingResultsOnPage(dataForTheTest.h1Text)
-                .checkingUrlOnPage("https://msk.tele2.ru/about/career/vacancies")
+                .checkingUrlOnPage(dataForTheTest.baseUrl + dataForTheTest.additionalPath)
                 .clickingOnLoginButton()
                 .clickingInPasswordButton(dataForTheTest.passwordButtonText)
                 .clickingInNumberFiled()
