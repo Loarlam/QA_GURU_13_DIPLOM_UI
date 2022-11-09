@@ -23,7 +23,7 @@ public class TestBase {
     static void beforeAllTests() {
         SelenideLogger.addListener("Allure", new AllureSelenide());
 
-        Configuration.remote = String.format("https://%s:%s@%s", credentialsConfig.login(), credentialsConfig.password(), System.getProperty("remoteLink"));
+        Configuration.remote = String.format("https://%s:%s@%s", credentialsConfig.login(), credentialsConfig.password(), credentialsConfig.remoteLink());
         Configuration.baseUrl = dataForTheTest.baseUrl;
         Configuration.browserPosition = credentialsConfig.position();
         Configuration.browser = credentialsConfig.browser();
